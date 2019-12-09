@@ -1,5 +1,5 @@
 /******************************************************
- * ❶ add button to remove button onClick
+ * ❶ add button functionality to remove item
  ******************************************************/
 
 import React from 'react';
