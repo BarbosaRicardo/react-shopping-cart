@@ -1,3 +1,7 @@
+/******************************************************
+ * ❶ add button to remove button onClick
+ ******************************************************/
+
 import React from 'react';
 
 const Item = props => {
@@ -9,7 +13,8 @@ const Item = props => {
 			<div>
 				<h1>{props.title}</h1>
 				<p>$ {props.price}</p>
-				<button>Remove from cart</button>
+				{/* ❶ add button to remove button onClick */}
+				<button onClick={() => props.removeItem(props.title)}>Remove from Cart</button>
 			</div>
 		</div>
 	);
